@@ -26,6 +26,12 @@ clj-xchart wraps all the different chart you can generate in XChart:
 * Bubble charts
 * Stick charts
 
+## Compile
+
+```shell
+clj -T:build
+```
+
 ## Usage
 
 There are a lot of examples on the

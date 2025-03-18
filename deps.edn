@@ -1,0 +1,7 @@
+{:aliases {:build {:exec-fn build/-main,
+                   :extra-deps {badigeon/badigeon {:mvn/version "1.7"}},
+                   :paths ["build"]}},
+ :deploy-repositories [["releases" :clojars]],
+ :deps {org.clojure/clojure {:mvn/version "1.8.0"},
+        org.knowm.xchart/xchart {:mvn/version "3.2.1"}},
+ :paths ["src/clj" "classes"]}
