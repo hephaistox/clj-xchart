@@ -9,7 +9,7 @@ Clojure wrapper around XChart, a small library for rendering charts/plots.
 This is the latest released version:
 
 ```clj
-[com.hypirion/clj-xchart "0.2.0"]
+{com.github.hephaistox/clj-xchart {:git/sha "83e0d78f853d7a1212075f36f9dae22e145ffd6e"}}
 ```
 
 ## What
